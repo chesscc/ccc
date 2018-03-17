@@ -105,7 +105,7 @@ class Game extends React.Component {
 function fillSquares(fen, squares) {
   const chessSymbols = { 'P': '&#9817;', 'N': '&#9816;', 'B': '&#9815;', 'R': '&#9814;', 'Q': '&#9813;', 'K': '&#9812;', 'p': '&#9823;', 'n': '&#9822;', 'b': '&#9821;', 'r': '&#9820;', 'q': '&#9819;', 'k': '&#9818;' };
   const fenNotation = fen.split(' ');
-  const fenFields = fenNotation[0].split("/");
+  const fenFields = fenNotation[0].split('/');
 
   let index = 0;
   let fenField = '';
